@@ -55,9 +55,17 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
-
-
+* {
+  font-family: 'Lato';
+  font-weight: 400;
+}
 
 
 
