@@ -80,10 +80,13 @@ html {
   position: relative;
   margin-bottom: 15px;
   padding-top: 40px;
-}
 
-.logo-wraps {
-  float: left;
+  figure {
+    float: left;
+    display: inline-block;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
 }
 
 .tabs {
@@ -99,9 +102,32 @@ html {
   }
 }
 
+.signup-body {
+  position: relative;
+  border: 1px solid lightgray;
+  margin: 0 auto;
+  height: 753px;
+  width: 800px;
+  padding: 43px 50px 50px 50px;
+}
 
-
-
+.forms {
+  display: inline-block;
+  width: 400px;
+  min-height: 427px;
+  fieldset {
+    height: 150px;
+  }
+  label {
+    display: block;
+    input {
+      display: block;
+    }
+    #remember {
+      display: inline-block;
+    }
+  }
+}
 
 
 

@@ -67,9 +67,11 @@ html {
   position: relative;
   margin-bottom: 15px;
   padding-top: 40px; }
-
-.logo-wraps {
-  float: left; }
+  .logo-and-tabs figure {
+    float: left;
+    display: inline-block;
+    margin-left: 0;
+    margin-bottom: 10px; }
 
 .tabs {
   float: right;
@@ -80,6 +82,27 @@ html {
     margin: 0; }
   .tabs li {
     display: inline; }
+
+.signup-body {
+  position: relative;
+  border: 1px solid lightgray;
+  margin: 0 auto;
+  height: 753px;
+  width: 800px;
+  padding: 43px 50px 50px 50px; }
+
+.forms {
+  display: inline-block;
+  width: 400px;
+  min-height: 427px; }
+  .forms fieldset {
+    height: 150px; }
+  .forms label {
+    display: block; }
+    .forms label input {
+      display: block; }
+    .forms label #remember {
+      display: inline-block; }
 
 /* ==========================================================================
    Media Queries
