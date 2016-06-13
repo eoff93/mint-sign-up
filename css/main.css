@@ -67,10 +67,51 @@ html {
   font-weight: 400;
 }
 
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
 
+.logo-and-tabs {
+  height: 96px;
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 15px;
+  padding-top: 40px;
+}
 
+.logo-wrap {
+  float: left;
+}
 
+.tabs {
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 
+.tabs ul {
+  margin: 0;
+}
+
+.tabs li {
+  display: inline;
+}
 
 
 
