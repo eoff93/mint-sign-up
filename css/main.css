@@ -68,7 +68,7 @@ html {
   margin-bottom: 15px;
   padding-top: 40px; }
 
-.logo-wrap {
+.logo-wraps {
   float: left; }
 
 .tabs {
@@ -76,12 +76,10 @@ html {
   position: absolute;
   bottom: 0;
   right: 0; }
-
-.tabs ul {
-  margin: 0; }
-
-.tabs li {
-  display: inline; }
+  .tabs ul {
+    margin: 0; }
+  .tabs li {
+    display: inline; }
 
 /* ==========================================================================
    Media Queries

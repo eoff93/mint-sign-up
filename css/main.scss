@@ -82,7 +82,7 @@ html {
   padding-top: 40px;
 }
 
-.logo-wrap {
+.logo-wraps {
   float: left;
 }
 
@@ -91,15 +91,14 @@ html {
   position: absolute;
   bottom: 0;
   right: 0;
+  ul {
+    margin: 0;
+  }
+  li {
+    display: inline;
+  }
 }
 
-.tabs ul {
-  margin: 0;
-}
-
-.tabs li {
-  display: inline;
-}
 
 
 
