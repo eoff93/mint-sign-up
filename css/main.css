@@ -185,7 +185,10 @@ footer {
     footer .links a:last-child {
       border: 0; }
   footer .security {
-    text-align: center; }
+    text-align: center;
+    margin: 25px 0; }
+    footer .security img {
+      margin: 0 12px; }
   footer .copyright {
     text-align: center; }
 
