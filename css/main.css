@@ -190,7 +190,9 @@ footer {
     footer .security img {
       margin: 0 12px; }
   footer .copyright {
-    text-align: center; }
+    text-align: center;
+    color: #a5a5a5;
+    font-size: 11px; }
 
 /* ==========================================================================
    Media Queries
