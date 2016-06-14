@@ -103,12 +103,52 @@ html {
   display: inline-block;
   width: 400px;
   min-height: 427px; }
+  .forms h2 {
+    font-size: 30px; }
   .forms fieldset {
-    height: 136px; }
+    height: 96px;
+    width: 398px; }
   .forms label {
     display: block; }
     .forms label input {
-      display: block; }
+      margin-top: 16px; }
+    .forms label .text-input {
+      box-shadow: none;
+      border-radius: 3px;
+      border: 1px solid #d8d8d8;
+      height: 34px;
+      width: 320px;
+      min-width: 160px;
+      padding-left: 8px;
+      padding-right: 6px; }
+    .forms label #remember {
+      height: 19px;
+      width: 19px;
+      padding: 0;
+      margin: 0;
+      vertical-align: bottom;
+      position: relative;
+      top: -1px;
+      *overflow: hidden; }
+    .forms label .remember-text {
+      display: inline-block;
+      padding-left: 19px;
+      text-indent: -15px; }
+  .forms #signup {
+    text-transform: uppercase !important;
+    border: none !important;
+    border-radius: 2px;
+    color: #fff;
+    padding: 0 20px;
+    font-weight: 400;
+    background: #45cae6 !important;
+    height: 34px;
+    margin-bottom: 30px; }
+  .forms .terms {
+    color: #7d7f80; }
+    .forms .terms a {
+      text-decoration: none;
+      color: #45cae6 !important; }
 
 aside {
   border-left: 1px solid lightgray;

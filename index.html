@@ -43,33 +43,40 @@
             <fieldset >
               <label >
                 Your Email
-                <input type="email" name="email" required><br>
-              </label>
-
-              <label>
-                Confirm Email
-                <input type="email" name="email-confirm" required>
+                <br>
+                <input type="email" name="email" class="text-input" required><br>
               </label>
             </fieldset>
+
+            <fieldset>
+              <label>
+                Confirm Email
+                <input type="email" name="email-confirm" class="text-input" required>
+              </label>
+            </fieldset>
+
             <!-- Password fieldset -->
             <fieldset >
               <label>
                 Password
-                <input type="password" name="password" required><br>
+                <br>
+                <input type="password" name="password" class="text-input" required><br>
               </label>
+            </fieldset>
 
+            <fieldset>
               <label>
                 Confirm Password
-                <input #id="password-confirm" type="password" name="password-confirm" required>
+                <input #id="password-confirm" type="password" name="password-confirm" class="text-input" required>
               </label>
             </fieldset>
             <!-- Submit and Remember fieldset -->
             <fieldset>
               <label>
                 <input id="remember" type="checkbox" name="remember-me" value="Remember me">
-                Remember me
+                <span class="remember-text">Remember me</span>
               </label><br>
-              <input id ="signup" type="button" name="signup" value="Sign up">
+              <button type="button" name="signup" id="signup">Sign up</button>
               <small class="terms"><br>
                 By clicking Sign Up you agree to our <a href="#">Terms of Use</a>
                 and <a href="#">Privacy Policy</a>
