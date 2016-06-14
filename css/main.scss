@@ -130,8 +130,11 @@ html {
   width: 400px;
   min-height: 427px;
 
-  h2 {
+  .welcome-text {
+    height: 135;
+    width: 398;
     font-size: 30px;
+    padding-bottom: 50px;
   }
 
   fieldset {

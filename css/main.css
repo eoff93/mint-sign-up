@@ -104,8 +104,11 @@ html {
   display: inline-block;
   width: 400px;
   min-height: 427px; }
-  .forms h2 {
-    font-size: 30px; }
+  .forms .welcome-text {
+    height: 135;
+    width: 398;
+    font-size: 30px;
+    padding-bottom: 50px; }
   .forms fieldset {
     height: 96px;
     width: 398px; }
