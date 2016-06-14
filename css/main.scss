@@ -106,6 +106,7 @@ html {
   position: relative;
   border: 1px solid lightgray;
   margin: 0 auto;
+  margin-bottom: 15px;
   height: 753px;
   width: 800px;
   padding: 43px 50px 50px 50px;
@@ -151,6 +152,22 @@ aside {
     font-size: 12px;
   }
 }
+
+footer {
+  .links {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .security {
+    text-align: center;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}
+
 
 
 
