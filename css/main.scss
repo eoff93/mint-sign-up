@@ -67,6 +67,7 @@ html {
   font-weight: 400;
 }
 
+/* Header area, logo and sign up and log in tabs */
 .logo-and-tabs {
   position: relative;
   margin: 0 auto;
@@ -115,6 +116,7 @@ html {
   }
 }
 
+/* Sign up container */
 .signup-body {
   position: relative;
   margin: 0 auto;
@@ -126,6 +128,7 @@ html {
           box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
+/* Main form area for email, password, remember me checkbox and sign up */
 .forms {
   display: inline-block;
   width: 400px;
@@ -196,6 +199,7 @@ html {
   }
 }
 
+/* A section that goes beside the main form area */
 aside {
   position: absolute;
   right: 50px;
@@ -229,6 +233,7 @@ aside {
   }
 }
 
+/* Main footer */
 footer {
   padding: 40px 0 100px 0;
   .links {
