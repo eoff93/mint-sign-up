@@ -68,10 +68,10 @@ html {
 }
 
 .logo-and-tabs {
+  position: relative;
+  margin: 0 auto;
   height: 96px;
   width: 800px;
-  margin: 0 auto;
-  position: relative;
   margin-bottom: 15px;
   padding-top: 40px;
 
@@ -102,10 +102,11 @@ html {
 }
 
 .tabs {
-  float: right;
   position: absolute;
+  float: right;
   bottom: 0;
   right: 0;
+
   ul {
     margin: 0;
   }
@@ -115,14 +116,14 @@ html {
 }
 
 .signup-body {
-  -webkit-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
-     -moz-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
   position: relative;
   margin: 0 auto;
   height: 753px;
   width: 800px;
   padding: 43px 50px 50px 50px;
+  -webkit-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .forms {
@@ -142,7 +143,6 @@ html {
     width: 398px;
   }
   label {
-    display: block;
     input {
       margin-top: 16px;
     }
@@ -158,14 +158,14 @@ html {
     }
 
     #remember {
-      height: 19px;
-      width: 19px;
-      padding: 0;
-      margin:0;
       vertical-align: bottom;
       position: relative;
       top: -1px;
       *overflow: hidden;
+      height: 19px;
+      width: 19px;
+      padding: 0;
+      margin:0;
     }
 
     .remember-text {
@@ -175,45 +175,44 @@ html {
     }
   }
   #signup {
-    text-transform: uppercase !important;
-    border: none !important;
-    border-radius: 2px;
+    text-transform: uppercase;
     color: #fff;
-    padding: 0 20px;
-    font-weight: 400;
-    background: #45cae6 !important;
     height: 34px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 30px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 400;
+    background: #45cae6;
   }
 
   .terms {
     color: #7d7f80;
     a {
       text-decoration: none;
-      color: #45cae6 !important;
+      color: #45cae6;
     }
   }
 }
 
 aside {
-  display: inline-block;
   position: absolute;
-  border-left: solid 1px lightgray;
+  right: 50px;
   margin-right: -25px;
   padding-left: 0;
-  right: 50px;
+  display: inline-block;
+  border-left: solid 1px lightgray;
   color: #666;
 
   .tips {
     background: #f5f5f5;
+    height: 540px;
     margin-left: 25px;
     padding-bottom: 19px;
     padding-right: 17px;
     padding-top: 21px;
     padding-left: 40px;
-    height: 540px;
-
     a {
       color: inherit;
     }
@@ -236,12 +235,12 @@ footer {
     text-align: center;
     margin-bottom: 15px;
     a {
+      position: relative;
+      padding: 0 1.5%;
+      border-right: 1px solid #a5a5a5;
       font-size: 14px;
       text-decoration: none;
       color: #a5a5a5;
-      padding: 0 1.5%;
-      position: relative;
-      border-right: 1px solid #a5a5a5;
     }
     a:last-child {
       border: 0;
